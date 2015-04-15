@@ -1,0 +1,58 @@
+html, body {
+	height: 100%;
+	width:100%;
+	background: #999;
+}
+header {
+	display: flex;
+	justify-content: center;
+	color:#999;
+}
+.frame {
+	height:700px;
+	width:80%;
+	margin: 50px auto;
+	background: #eee;
+	padding:50px;
+	border-radius: 50px;
+}
+
+.selectionSection {
+	display: flex;
+	justify-content: space-around;
+	background: #999;
+	padding:10px;
+	border-radius: 15px;
+}
+.inputSec {
+	height: 50px;
+	display:flex;
+	justify-content: space-around;
+}
+input {
+	height:100%;
+}
+button {
+	height:50px;
+	width: 150px;
+}
+.selectionSection > button {
+	height: 50px;
+	width: 25%;
+}
+.filter {
+	color: red;
+}
+input {
+	height:50px;
+	width:25%;
+}
+.quoteholder {
+	height:70%;
+	overflow: auto;
+}
+.quote {
+	display: flex;
+	flex-direction: column;
+
+}
